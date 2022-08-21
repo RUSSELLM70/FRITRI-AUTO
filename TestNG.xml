@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="ioAppiumSuite" verbose="1">
-    <test name="SampleTest">
+<suite name="FritriAutoApp" verbose="1">
+    <test name="FritriApp">
         <classes>
-            <class name="ioSampleTest"/>
+            <class name="Fritri_Auto"/>
         </classes>
     </test>
 </suite>
