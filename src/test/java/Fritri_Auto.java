@@ -32,10 +32,7 @@ public class Fritri_Auto {
 
     @Test
     public void loginSuccess() throws InterruptedException {
-    /*    //Click and pass Splash
-        driver.findElementByAccessibilityId("FRITRI-APP").click();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-*/
+
         driver.findElementByXPath("(//android.widget.EditText[@content-desc=\"Input\"])[1]").click();
 
         MobileElement mail = (MobileElement)  driver.findElementByXPath("(//android.widget.EditText[@content-desc=\"Input\"])[1]");
@@ -94,10 +91,7 @@ public class Fritri_Auto {
 
     @Test
     public void createTrip() throws InterruptedException {
-    /*    //Click and pass Splash
-        driver.findElementByAccessibilityId("FRITRI-APP").click();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-*/
+
         driver.findElementByXPath("(//android.widget.EditText[@content-desc=\"Input\"])[1]").click();
         MobileElement mail = (MobileElement)  driver.findElementByXPath("(//android.widget.EditText[@content-desc=\"Input\"])[1]");
         mail.sendKeys("antoniosmsn@hotmail.com");
@@ -169,28 +163,6 @@ public class Fritri_Auto {
 
         driver.navigate().back();
 
-
-
-
-         /* driver.findElement(MobileBy.AndroidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(100000)"));
-
-        driver.findElementByXPath("(//android.view.ViewGroup[@content-desc=\"Button\"])[6]").click();
-        driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[1]").click();
-
-
-
-        //Scrolls
-        driver.findElement(MobileBy.AndroidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true)).scrollToBeginning(100000)"));
-
-        driver.findElement(MobileBy.AndroidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(100000)"));
-
-        //LOgout
-     driver.findElementByXPath("(//android.view.ViewGroup[@content-desc=\"Button\"])[6]").click();
-        driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[1]").click();
-*/
     }
 
 
