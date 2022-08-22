@@ -142,6 +142,9 @@ public class Fritri_Auto {
                 "new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(100000)"));
 
         driver.findElementByXPath("(//android.view.ViewGroup[@content-desc=\"Block\"])[17]/android.view.ViewGroup/android.view.ViewGroup").click();
+        driver.findElement(MobileBy.AndroidUIAutomator(
+                "new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(100000)"));
+
         driver.findElementByXPath("(//android.view.ViewGroup[@content-desc=\"Button\"])[2]/android.view.ViewGroup/android.view.View").click();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.findElement(MobileBy.AndroidUIAutomator(

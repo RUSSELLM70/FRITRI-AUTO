@@ -5,8 +5,7 @@
         <classes>
             <class name="Fritri_Auto">
                 <methods>
-                    <include name="loginFailed"></include>
-                    <include name="loginSuccess"></include>
+
                     <include name="createTrip"></include>
 
                 </methods>
